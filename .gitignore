@@ -12,3 +12,10 @@ Pods/
 
 # Misc
 .DS_Store
+
+
+# Ignore Firebase configuration file
+Instagram-iOS-Academy/Resources/GoogleService-Info.plist
+
+
+echo ".gitignore.save" >> .gitignore
