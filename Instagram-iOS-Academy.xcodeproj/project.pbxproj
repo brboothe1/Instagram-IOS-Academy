@@ -32,7 +32,7 @@
 		82DCD1392DB971C100004606 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 82DCD1382DB971C100004606 /* FirebaseCore */; };
 		82DCD13B2DB971C100004606 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 82DCD13A2DB971C100004606 /* FirebaseCrashlytics */; };
 		82DCD13D2DB971C100004606 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 82DCD13C2DB971C100004606 /* FirebaseDatabase */; };
-		82E6E0612DB959A9000B6B93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82E6E0602DB959A9000B6B93 /* GoogleService-Info.plist */; };
+		82EF31D02DBB31A0006B6959 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82EF31CF2DBB31A0006B6959 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,7 @@
 		827974942DB7476400B14F03 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		827974962DB7477A00B14F03 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		827974982DB7478600B14F03 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		82E6E0602DB959A9000B6B93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82EF31CF2DBB31A0006B6959 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +77,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		466BFB2861C7FFE903A688C1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		8264B8782DB813DE009F2816 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +107,6 @@
 			children = (
 				827974852DB7463500B14F03 /* Instagram-iOS-Academy */,
 				827974652DB7462C00B14F03 /* Products */,
-				466BFB2861C7FFE903A688C1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,7 +158,7 @@
 		827974902DB7465D00B14F03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				82E6E0602DB959A9000B6B93 /* GoogleService-Info.plist */,
+				82EF31CF2DBB31A0006B6959 /* GoogleService-Info.plist */,
 				8279747C2DB7463500B14F03 /* AppDelegate.swift */,
 				827974832DB7463500B14F03 /* SceneDelegate.swift */,
 			);
@@ -257,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				827974892DB7463500B14F03 /* Assets.xcassets in Resources */,
-				82E6E0612DB959A9000B6B93 /* GoogleService-Info.plist in Resources */,
+				82EF31D02DBB31A0006B6959 /* GoogleService-Info.plist in Resources */,
 				8279748B2DB7463500B14F03 /* LaunchScreen.storyboard in Resources */,
 				8279748C2DB7463500B14F03 /* Main.storyboard in Resources */,
 			);
