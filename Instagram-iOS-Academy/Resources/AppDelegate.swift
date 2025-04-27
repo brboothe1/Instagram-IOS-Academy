@@ -19,6 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        // Check if Firebase is initialized
+               if FirebaseApp.app() != nil {
+                   print("Firebase is successfully initialized")
+               } else {
+                   print("Firebase initialization failed")
+               }
+        
         return true
     }
 
