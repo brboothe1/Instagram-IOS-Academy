@@ -20,12 +20,12 @@ class HomeViewController: UIViewController {
         
         handleNonAuthenticated()
         
-        do {
-            try Auth.auth().signOut()
-        }
-        catch {
-            print("failed to sign out")
-        }
+//        do {
+//            try Auth.auth().signOut()
+//        }
+//        catch {
+//            print("failed to sign out")
+//        }
         
     }
     
