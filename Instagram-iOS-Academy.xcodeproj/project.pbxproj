@@ -12,6 +12,9 @@
 		820993E72DC97FF8004CB002 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820993E62DC97FF8004CB002 /* IGFeedPostActionsTableViewCell.swift */; };
 		820993E92DC98015004CB002 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820993E82DC98015004CB002 /* IGFeedPostGeneralTableViewCell.swift */; };
 		824043482DCC31A40053C6DD /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824043472DCC31A40053C6DD /* UserFollowTableViewCell.swift */; };
+		8240434A2DCD9D8C0053C6DD /* NoNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824043492DCD9D8C0053C6DD /* NoNotificationsView.swift */; };
+		8240434D2DCDA0C70053C6DD /* NofificationFollowEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240434C2DCDA0C70053C6DD /* NofificationFollowEventTableViewCell.swift */; };
+		8240434F2DCDA0D60053C6DD /* NotificationLikeEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240434E2DCDA0D60053C6DD /* NotificationLikeEventTableViewCell.swift */; };
 		82604D842DCADFAD00F57C07 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82604D832DCADFAD00F57C07 /* FormTableViewCell.swift */; };
 		82604D872DCAEC8900F57C07 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82604D862DCAEC8900F57C07 /* PhotoCollectionViewCell.swift */; };
 		82604D892DCAECC800F57C07 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82604D882DCAECC800F57C07 /* ProfileInfoHeaderCollectionReusableView.swift */; };
@@ -37,7 +40,7 @@
 		8279748C2DB7463500B14F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827974822DB7463500B14F03 /* Main.storyboard */; };
 		827974932DB7473B00B14F03 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827974922DB7473B00B14F03 /* ExploreViewController.swift */; };
 		827974952DB7476400B14F03 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827974942DB7476400B14F03 /* CameraViewController.swift */; };
-		827974972DB7477A00B14F03 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827974962DB7477A00B14F03 /* NotificationViewController.swift */; };
+		827974972DB7477A00B14F03 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827974962DB7477A00B14F03 /* NotificationsViewController.swift */; };
 		827974992DB7478600B14F03 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827974982DB7478600B14F03 /* ProfileViewController.swift */; };
 		82DCD1352DB971C100004606 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 82DCD1342DB971C100004606 /* FirebaseAnalytics */; };
 		82DCD1372DB971C100004606 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 82DCD1362DB971C100004606 /* FirebaseAuth */; };
@@ -58,6 +61,9 @@
 		820993E62DC97FF8004CB002 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		820993E82DC98015004CB002 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		824043472DCC31A40053C6DD /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
+		824043492DCD9D8C0053C6DD /* NoNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNotificationsView.swift; sourceTree = "<group>"; };
+		8240434C2DCDA0C70053C6DD /* NofificationFollowEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NofificationFollowEventTableViewCell.swift; sourceTree = "<group>"; };
+		8240434E2DCDA0D60053C6DD /* NotificationLikeEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationLikeEventTableViewCell.swift; sourceTree = "<group>"; };
 		82604D832DCADFAD00F57C07 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		82604D862DCAEC8900F57C07 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		82604D882DCAECC800F57C07 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
@@ -83,7 +89,7 @@
 		827974842DB7463500B14F03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		827974922DB7473B00B14F03 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		827974942DB7476400B14F03 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		827974962DB7477A00B14F03 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		827974962DB7477A00B14F03 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		827974982DB7478600B14F03 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		82EF31CF2DBB31A0006B6959 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		82EF31D22DBEE7FF006B6959 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
@@ -114,7 +120,8 @@
 		820993E02DC97CF5004CB002 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				820993E32DC97FAF004CB002 /* Home Feed */,
+				8240434B2DCDA0AD0053C6DD /* Notifications */,
+				820993E32DC97FAF004CB002 /* Home Feed & Post */,
 				82604D832DCADFAD00F57C07 /* FormTableViewCell.swift */,
 				82604D862DCAEC8900F57C07 /* PhotoCollectionViewCell.swift */,
 				824043472DCC31A40053C6DD /* UserFollowTableViewCell.swift */,
@@ -122,7 +129,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		820993E32DC97FAF004CB002 /* Home Feed */ = {
+		820993E32DC97FAF004CB002 /* Home Feed & Post */ = {
 			isa = PBXGroup;
 			children = (
 				820993E12DC97D24004CB002 /* IGFeedPostTableViewCell.swift */,
@@ -130,7 +137,16 @@
 				820993E62DC97FF8004CB002 /* IGFeedPostActionsTableViewCell.swift */,
 				820993E82DC98015004CB002 /* IGFeedPostGeneralTableViewCell.swift */,
 			);
-			path = "Home Feed";
+			path = "Home Feed & Post";
+			sourceTree = "<group>";
+		};
+		8240434B2DCDA0AD0053C6DD /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				8240434C2DCDA0C70053C6DD /* NofificationFollowEventTableViewCell.swift */,
+				8240434E2DCDA0D60053C6DD /* NotificationLikeEventTableViewCell.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 		82604D852DCAEC5600F57C07 /* CollectionView Headers */ = {
@@ -205,6 +221,7 @@
 				820993E02DC97CF5004CB002 /* Cells */,
 				8279747D2DB7463500B14F03 /* Assets.xcassets */,
 				827974912DB7469C00B14F03 /* Storyboards */,
+				824043492DCD9D8C0053C6DD /* NoNotificationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,7 +263,7 @@
 				827974842DB7463500B14F03 /* HomeViewController.swift */,
 				827974922DB7473B00B14F03 /* ExploreViewController.swift */,
 				827974942DB7476400B14F03 /* CameraViewController.swift */,
-				827974962DB7477A00B14F03 /* NotificationViewController.swift */,
+				827974962DB7477A00B14F03 /* NotificationsViewController.swift */,
 				827974982DB7478600B14F03 /* ProfileViewController.swift */,
 			);
 			path = "Core Tabs";
@@ -355,8 +372,9 @@
 				827974932DB7473B00B14F03 /* ExploreViewController.swift in Sources */,
 				8264B88D2DB814AD009F2816 /* PublishPostViewController.swift in Sources */,
 				827974952DB7476400B14F03 /* CameraViewController.swift in Sources */,
-				827974972DB7477A00B14F03 /* NotificationViewController.swift in Sources */,
+				827974972DB7477A00B14F03 /* NotificationsViewController.swift in Sources */,
 				8264B87D2DB8140C009F2816 /* RegistrationViewController.swift in Sources */,
+				8240434A2DCD9D8C0053C6DD /* NoNotificationsView.swift in Sources */,
 				820993E52DC97FE0004CB002 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				8264B88B2DB8149F009F2816 /* PostEditorViewController.swift in Sources */,
 				82EF31D72DBEE8D6006B6959 /* StorageManager.swift in Sources */,
@@ -374,6 +392,8 @@
 				82EF31DC2DBF057B006B6959 /* Extensions.swift in Sources */,
 				820993E92DC98015004CB002 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				8264B8872DB8146B009F2816 /* SearchViewController.swift in Sources */,
+				8240434F2DCDA0D60053C6DD /* NotificationLikeEventTableViewCell.swift in Sources */,
+				8240434D2DCDA0C70053C6DD /* NofificationFollowEventTableViewCell.swift in Sources */,
 				82604D892DCAECC800F57C07 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */,
 				827974992DB7478600B14F03 /* ProfileViewController.swift in Sources */,
 				82EF31D52DBEE88B006B6959 /* AuthManager.swift in Sources */,
